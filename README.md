@@ -259,3 +259,12 @@ Notes: [MIT线性代数课程学习总结](https://listen2099.github.io/blog/201
     - 8 当且仅当A为奇异矩阵的时候DetA=0
     - 9 Det(AB) = DetA * DetB ; Det(AT) = 1/DetA
     - 10 DetAT = DetA
+
+### 第19课 行列式公式和代数余子式
+
+- 行列式公式
+  - DetA = ∑ (-1)ta1αa2βa3γ… …anθ
+    - α，β，γ,… …θ为1~n的全部排列情况，t为相应排列情况下的逆序数
+- 代数余子式
+  - 余子式：Mij 为原矩阵去除第i行j列后剩下的矩阵的行列式
+  - 代数余子式：Aij = (-1)i+jMij
