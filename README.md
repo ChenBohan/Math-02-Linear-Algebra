@@ -268,3 +268,15 @@ Notes: [MIT线性代数课程学习总结](https://listen2099.github.io/blog/201
 - 代数余子式
   - 余子式：Mij 为原矩阵去除第i行j列后剩下的矩阵的行列式
   - 代数余子式：Aij = (-1)i+jMij
+
+### 第20课 克拉默法则、逆矩阵、体积
+
+- 求逆公式
+  - A逆 = (1/DetA)CT
+    - C为A的代数余子式构成的矩阵，CT为A的伴随阵
+- 莫拉克法则
+  - Ax=b
+    - -> x=A-1b
+    - -> x=(1/DetA)CTb
+  - xn = DetBn/DetA
+    - Bn为一个矩阵，是将A的第n列替换成b形成的矩阵
