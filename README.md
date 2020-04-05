@@ -272,11 +272,11 @@ Notes: [MIT线性代数课程学习总结](https://listen2099.github.io/blog/201
 ### 第20课 克拉默法则、逆矩阵、体积
 
 - 求逆公式
-  - A逆 = (1/DetA)CT
+  - A的逆 = (1/DetA)CT
     - C为A的代数余子式构成的矩阵，CT为A的伴随阵
 - 莫拉克法则
   - Ax=b
-    - -> x=A-1b
+    - -> x=A的逆*b
     - -> x=(1/DetA)CTb
   - xn = DetBn/DetA
     - Bn为一个矩阵，是将A的第n列替换成b形成的矩阵
